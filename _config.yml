@@ -26,22 +26,22 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: wang shaoxi # add your name
 author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+about-author: A graduating student ,majoring in Data Science and Big Data Technology ,is perpareing for postgraduate entrance exam.
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
+email: wsx20010401@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
+website: https://wsx2001.github.io # Add your website
+linkedin:  # Add your Linkedin handle
+github: wsx2001 # Add your Github handle
+twitter:  # Add your Twitter handle
+bandcamp:  # Add your Bandcamp username
 
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Disqus
-discus_identifier: amaynez-github-io # Add your discus identifier
+discus_identifier: wsx-github-io # Add your discus identifier
 comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
