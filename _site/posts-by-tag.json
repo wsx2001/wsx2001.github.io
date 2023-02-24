@@ -1,0 +1,46 @@
+
+
+[   
+      
+  {
+  "tag" : "LeetCode",
+  "posts" : [
+      
+      "./LeetcodesNote.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "MineCraft",
+  "posts" : [
+      
+      "./Minecraft-Mod-Develop-Note.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Note",
+  "posts" : [
+      
+      "./Minecraft-Mod-Develop-Note.html",
+      
+      "./LeetcodesNote.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "test",
+  "posts" : [
+      
+      "./jekyll-test.html"
+      
+    ]
+  } 
+    
+]

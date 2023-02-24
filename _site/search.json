@@ -1,0 +1,33 @@
+[
+  
+    {
+      "title"       : "My jekyll test",
+      "category"    : "theory",
+      "tags"        : "test",
+      "url"         : "./jekyll-test.html",
+      "date"        : "2022-01-27 00:00:00 +0800",
+      "description" : "test",
+      "content"     : "First test for jekyll"
+    } ,
+  
+    {
+      "title"       : "我的世界MOD开发笔记",
+      "category"    : "MC",
+      "tags"        : "MineCraft, Note",
+      "url"         : "./Minecraft-Mod-Develop-Note.html",
+      "date"        : "2022-01-27 00:00:00 +0800",
+      "description" : "Minecraft",
+      "content"     : "无意间入坑我的世界,虽然水平不怎么样，但在接触到我的世界Mod后就一直想要试下自己做一些东西。这里就记录一些学习进度基础学习 环境搭建:java环境，IDEA,Forge1.15 基础构建 第一个物品 物品材质与模型 item和itemStack 食物 近战武器 工具 装备 装备材质 自定义创造模式物品栏 第一个方块 合成表 掉落物品 附魔 药水 实体 实体模型 实体渲染 实体属性(血量等) AI 生物附加属性 存档报存生物属性 怪物蛋生成 生物世界生成 实体掉落物品 创建能力 注册能力 绘制HUD 网络发包 消耗能量 方块朝向 自定义方块模型 简单GUI 方块实体 矿物生成 实践武器 范围型伤害武器: 对周围10格范围内生物造成伤害:火焰or刀刃，凋零 可通过不同材料实现不同的效果实体 一个拥有多个技能的实体 技能1: 范围型击退并造成少量伤害技能2: 击飞攻击技能3: 类似末影龙的吐息攻击: 可以有不同效果(凋零，火焰，减速，中毒等)"
+    } ,
+  
+    {
+      "title"       : "LeetCode刷题笔记",
+      "category"    : "Code",
+      "tags"        : "Note, LeetCode",
+      "url"         : "./LeetcodesNote.html",
+      "date"        : "2022-01-27 00:00:00 +0800",
+      "description" : "Leetcode",
+      "content"     : "leetcode刷题目录 28. 对称的二叉树 对称的二叉树 请实现一个函数，用来判断一棵二叉树是不是对称的。如果一棵二叉树和它的镜像一样，那么它是对称的。 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。 解题思路: 递归判断,根据对称判断root的left==right，在判断left-&gt;left==right-&gt;right &amp;&amp; left-&gt;right==right-&gt;left算法流程isSymmetric: 特例处理:若根节点root为空,返回true. 返回值: compare(root.left,root.right);compare(left,right): 条件处理1.若left==NULL,right==NULL返回true 2.当只有left，right中的一个为NULL,返回false; 返回值:返回compare(left.left,right.right)&amp;&amp;compare(left.right,right.left) bool compare(struct TreeNode*left,struct TreeNode*right){ if((!left&amp;&amp;right) ||(left&amp;&amp;!right)) return false; if(!left&amp;&amp;!right) return true; // else // return false; // if(left-&gt;val != right-&gt;val) // return false; return (left-&gt;val==right-&gt;val) &amp;&amp; compare(left-&gt;left, right-&gt;right) &amp;&amp; compare(left-&gt;right,right-&gt;left);}bool isSymmetric(struct TreeNode* root){ if(!root) return true; return compare(root-&gt;left,root-&gt;right);}"
+    } 
+  
+]
